@@ -53,7 +53,7 @@
     "type": "git",
     "url": "https://github.com/your-username/react-formula-editor-advanced.git"
   },
-  "homepage": "https://github.com/your-username/react-formula-editor-advanced#readme",
+  "homepage": "https://github.com/lqt0707/react-formula-editor?tab=readme-ov-file#%E4%B8%AD%E6%96%87",
   "publishConfig": {
     "access": "public"
   }
