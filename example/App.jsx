@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { FormulaEditor } from "./FormulaEditor";
+import { FormulaEditor } from "../src/index.jsx";
+import "../src/style.module.less";
 
 const App = () => {
   const [formula, setFormula] = useState(

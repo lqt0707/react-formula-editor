@@ -41,7 +41,7 @@ export const convertFormulaToTags = (formula, metricOptions = []) => {
  * @param {Array} props.metricOptions - 指标选项数组
  * @param {string} props.placeholder - 占位符文本
  */
-export const FormulaEditor = forwardRef((props = {}, ref) => {
+export const FormulaEditor = forwardRef((props, ref) => {
   const {
     value = "",
     onChange,

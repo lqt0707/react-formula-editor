@@ -31,17 +31,17 @@ yarn add react-formula-editor-advanced
 ### 🚀 使用
 
 ```jsx
-import React, { useState, useRef } from 'react';
-import { FormulaEditor } from 'react-formula-editor-advanced';
-import 'react-formula-editor-advanced/dist/style.css';
+import React, { useState, useRef } from "react";
+import { FormulaEditor } from "react-formula-editor-advanced";
+import "react-formula-editor-advanced/dist/style.css";
 
 const App = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
   const editorRef = useRef(null);
 
   const metricOptions = [
-    { key: 'metric1', name: '指标一' },
-    { key: 'metric2', name: '指标二' },
+    { key: "metric1", name: "指标一" },
+    { key: "metric2", name: "指标二" },
   ];
 
   const handleChange = (newValue) => {
@@ -66,21 +66,21 @@ export default App;
 
 #### Props
 
-| 属性 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| `value` | 编辑器的当前值（HTML字符串） | `string` | `''` |
-| `onChange` | 值变化时的回调函数 | `(value: string) => void` | - |
-| `metricOptions` | 自定义指标选项数组 | `Array<{key: string, name: string}>` | `[]` |
-| `placeholder` | 占位符文本 | `string` | `'输入#选择指标...'` |
+| 属性            | 说明                          | 类型                                 | 默认值               |
+| --------------- | ----------------------------- | ------------------------------------ | -------------------- |
+| `value`         | 编辑器的当前值（HTML 字符串） | `string`                             | `''`                 |
+| `onChange`      | 值变化时的回调函数            | `(value: string) => void`            | -                    |
+| `metricOptions` | 自定义指标选项数组            | `Array<{key: string, name: string}>` | `[]`                 |
+| `placeholder`   | 占位符文本                    | `string`                             | `'输入#选择指标...'` |
 
 #### Ref Methods
 
-| 方法 | 说明 |
-| --- | --- |
-| `focus()` | 让编辑器获得焦点 |
-| `getEditorRef()` | 获取编辑器 `div` 的 DOM 引用 |
-| `getValue()` | 获取纯文本公式 |
-| `setValue(html: string)` | 设置编辑器的内容 |
+| 方法                     | 说明                         |
+| ------------------------ | ---------------------------- |
+| `focus()`                | 让编辑器获得焦点             |
+| `getEditorRef()`         | 获取编辑器 `div` 的 DOM 引用 |
+| `getValue()`             | 获取纯文本公式               |
+| `setValue(html: string)` | 设置编辑器的内容             |
 
 ---
 
@@ -108,17 +108,17 @@ yarn add react-formula-editor-advanced
 ### 🚀 Usage
 
 ```jsx
-import React, { useState, useRef } from 'react';
-import { FormulaEditor } from 'react-formula-editor-advanced';
-import 'react-formula-editor-advanced/dist/style.css';
+import React, { useState, useRef } from "react";
+import { FormulaEditor } from "react-formula-editor-advanced";
+import "react-formula-editor-advanced/dist/style.css";
 
 const App = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState("");
   const editorRef = useRef(null);
 
   const metricOptions = [
-    { key: 'metric1', name: 'Metric One' },
-    { key: 'metric2', name: 'Metric Two' },
+    { key: "metric1", name: "Metric One" },
+    { key: "metric2", name: "Metric Two" },
   ];
 
   const handleChange = (newValue) => {
@@ -143,21 +143,21 @@ export default App;
 
 #### Props
 
-| Prop | Description | Type | Default |
-| --- | --- | --- | --- |
-| `value` | The current value of the editor (HTML string) | `string` | `''` |
-| `onChange` | Callback function when the value changes | `(value: string) => void` | - |
-| `metricOptions` | Array of custom metric options | `Array<{key: string, name: string}>` | `[]` |
-| `placeholder` | Placeholder text | `string` | `'Type # to select a metric...'` |
+| Prop            | Description                                   | Type                                 | Default                          |
+| --------------- | --------------------------------------------- | ------------------------------------ | -------------------------------- |
+| `value`         | The current value of the editor (HTML string) | `string`                             | `''`                             |
+| `onChange`      | Callback function when the value changes      | `(value: string) => void`            | -                                |
+| `metricOptions` | Array of custom metric options                | `Array<{key: string, name: string}>` | `[]`                             |
+| `placeholder`   | Placeholder text                              | `string`                             | `'Type # to select a metric...'` |
 
 #### Ref Methods
 
-| Method | Description |
-| --- | --- |
-| `focus()` | Focuses the editor. |
-| `getEditorRef()` | Gets the DOM reference of the editor `div`. |
-| `getValue()` | Gets the plain text formula. |
-| `setValue(html: string)` | Sets the content of the editor. |
+| Method                   | Description                                 |
+| ------------------------ | ------------------------------------------- |
+| `focus()`                | Focuses the editor.                         |
+| `getEditorRef()`         | Gets the DOM reference of the editor `div`. |
+| `getValue()`             | Gets the plain text formula.                |
+| `setValue(html: string)` | Sets the content of the editor.             |
 
 ### 📜 License
 
