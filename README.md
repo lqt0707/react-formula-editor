@@ -6,6 +6,7 @@
 ## 🌐 Language / 语言
 
 **[English](#english)** | **[中文](#中文)**
+![示例图片](/public/image.png)
 
 ---
 
