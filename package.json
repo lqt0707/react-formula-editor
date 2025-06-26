@@ -1,7 +1,7 @@
 {
   "name": "react-formula-editor-advanced",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "A flexible and powerful formula editor component for React, supporting custom metrics and complex calculations.",
   "main": "./dist/react-formula-editor-advanced.umd.js",
